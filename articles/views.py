@@ -1,6 +1,9 @@
 from django.shortcuts import render
+
 from .models import Article
-# Create your views here.
+
+
+# Create your assets here.
 
 
 def article_list(request):
