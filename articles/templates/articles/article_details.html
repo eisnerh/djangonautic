@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <div class="container jumbotron-fluid">
+        <div>
+            <table class="table table-dark">
+                <thead>
+                <tr>
+                    <th scope="col">Title</th>
+                    <th scope="col">Body</th>
+                    <th scope="col">Date</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>{{ article.title }}</td>
+                    <td>{{ article.body }}</td>
+                    <td>{{ article.date }}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <hr>
+        <button onclick="window.location='{% url 'articles:article_list' %}'" class="btn btn-lg btn-outline-info">Go
+            Back
+        </button>
+    </div>
+
+{% endblock %}

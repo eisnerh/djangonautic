@@ -5,9 +5,15 @@
     <meta charset="UTF-8">
     <title>Articles</title>
     <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
 </head>
 <body>
 <div class="wrapper">
+    <h1 class="align-content-lg-center">
+        <a href="{% url 'articles:article_list' %}">
+            <img src="{% static 'images/django.png' %}" alt="">
+        </a>
+    </h1>
     {% block content %}
 
     {% endblock %}
