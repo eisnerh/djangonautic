@@ -10,6 +10,7 @@
                     <th scope="col">Title</th>
                     <th scope="col">Body</th>
                     <th scope="col">Date</th>
+                    <th scope="col">IMG</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -17,6 +18,11 @@
                     <td>{{ article.title }}</td>
                     <td>{{ article.body }}</td>
                     <td>{{ article.date }}</td>
+                    <td>
+                    <div class="img-thumbnail img-fluid card-img container">
+                        <img src="{{ article.thumb.url }}" alt="">
+                    </div>
+                    </td>
                 </tr>
                 </tbody>
             </table>
