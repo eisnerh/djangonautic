@@ -4670,6 +4670,7 @@ input[type="button"].btn-block {
 
 .card-img {
     width: 100%;
+    height: auto;
     border-radius: calc(0.25rem - 1px);
 }
 
@@ -9629,7 +9630,10 @@ a.text-dark:hover, a.text-dark:focus {
     img {
         page-break-inside: avoid;
     }
-
+    .container img {
+        width: 100%;
+        height: auto;
+    }
     p,
     h2,
     h3 {
@@ -9648,6 +9652,8 @@ a.text-dark:hover, a.text-dark:focus {
 
     body {
         min-width: 992px !important;
+        background-image: url(images/stars.png);
+        background-repeat-y: no-repeat;
     }
 
     .container {
