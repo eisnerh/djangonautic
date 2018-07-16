@@ -1,14 +1,39 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <h1>Articles List</h1>
-    <div class="articles">
-        {% for article in articles %}
-            <div class="article">
-                <h2><a href="{% url 'articles:details' slug=article.slug %}">{{ article.title }}</a></h2>
-                <p>{{ article.snippet }}</p>
-                <p>{{ article.date }}</p>
-            </div>
-        {% endfor %}
+    <div class="container">
+        <div class="table">
+            <h1 class="text-center text-capitalize text-success">Articles List</h1>
+        </div>
     </div>
+
+    <div class="container">
+        <div class="table">
+            {% for article in articles %}
+
+                <table class="table table-sm table-dark">
+                <thead>
+                <tr>
+                    <th scope="col">Titles</th>
+                    <th scope="col">Snippet</th>
+                    <th scope="col">Date</th>
+
+                </tr>
+                </thead>
+                <tbody>
+                </t>
+                <th scope="row"><a href="{% url 'articles:details' slug=article.slug %}">{{ article.title }}</a>
+                </th>
+                <td scope="row"><p class="text-info">{{ article.snippet }}</p></td>
+                <td scope="row"><p class="text-success">{{ article.date }}</p></td>
+                </tr>
+                </tbody>
+
+
+            {% endfor %}
+            </table>
+        </div>
+    </div>
+
+
 {% endblock %}
