@@ -1,5 +1,20 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <H1>Sing Up</H1>
+    <div class="container">
+
+        <div class="form-control-lg">
+            <div class="form-head-w3l">
+                <h2 class="text-center text-info font-weight-bold">Sign Up</h2>
+            </div>
+            <div class="form-control-lg form-row">
+                <form action="/accounts/signup/" method="post">
+                    {% csrf_token %}
+                    {{ form }}
+                    <hr>
+                    <input type="submit" class="btn btn-dark btn-lg btn-group-lg" value="Sign up">
+                </form>
+            </div>
+        </div><!-- tab-content -->
+    </div>
 {% endblock %}
