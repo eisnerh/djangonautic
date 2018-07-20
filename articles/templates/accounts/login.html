@@ -23,6 +23,9 @@
                             {% endfor %}
                         </p>
                     {% endfor %}
+                    {% if request.GET.next %}
+                        <input type="hidden" name="next" value="{{ request.GET.next }}">
+                    {% endif %}
                     <hr>
                     <input type="submit" class="btn btn-dark btn-lg btn-group-lg" value="Login">
                 </form>

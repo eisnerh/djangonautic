@@ -1,3 +1,4 @@
+from django.contrib.auth.models import User
 from django.db import models
 
 
@@ -10,6 +11,7 @@ class Article(models.Model):
     body = models.TextField()
     date = models.DateTimeField(auto_now_add=False)
     thumb = models.ImageField(default='default.png', blank=True)
+    author = models.ForeignKey(User, default=None, on_delete='CASCADE')
 
     def __str__(self):
         return self.title

@@ -1,5 +1,6 @@
-from django.shortcuts import render, get_object_or_404
-
+from django.contrib.auth.decorators import login_required
+from django.shortcuts import render, get_object_or_404, redirect
+from .import forms
 from .models import Article
 
 
@@ -17,3 +18,18 @@ def article_details(request, slug):
 
     articles = get_object_or_404(Article, slug=slug)
     return render(request, "articles/article_details.html", {'article': article, 'articles': articles})
+
+
+@login_required(login_url='/accounts/login/')
+def article_create(request):
+    if request.method == 'POST':
+        form = forms.CreateArticle(request.POST, request.FILES)
+        if form.is_valid():
+            # save article to db
+            instance = form.save(commit=False)
+            instance.author = request.user
+            instance.save()
+            return redirect('articles:article_list')
+    else:
+        form = forms.CreateArticle()
+    return render(request, 'articles/article_create.html', {'form': form})

@@ -9652,8 +9652,7 @@ a.text-dark:hover, a.text-dark:focus {
 
     body {
         min-width: 992px !important;
-        background-image: url(images/stars.png);
-        background-repeat-y: no-repeat;
+        background: #1d2124 url(images/stars.png);
     }
 
     .container {

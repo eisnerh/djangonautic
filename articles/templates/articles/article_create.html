@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+    <div class="container">
+        <div class="tab-content">
+            <table>
+                <thead>
+                <h2>
+                    Create a new Article
+                </h2>
+                </thead>
+            </table>
+        </div>
+    <div>
+        <form method="post" class="form-control-lg" action="{% url 'articles:create' %}" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form }}
+            <input type="submit" name="" value="Create">
+        </form>
+    </div>
+    </div>
+{% endblock %}
