@@ -26,8 +26,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/accounts/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state relative-caret-position="191">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -35,12 +35,8 @@
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/articles/templates/accounts/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
+            <state relative-caret-position="119">
               <caret line="7" column="72" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
-              <folding>
-                <element signature="e#692#711#0#HTML" expanded="true" />
-                <element signature="e#877#894#0#HTML" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -48,8 +44,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/accounts/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+            <state relative-caret-position="68">
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -67,12 +63,8 @@
       <file leaf-file-name="sing_up.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/articles/templates/accounts/sing_up.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="170">
               <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-              <folding>
-                <element signature="e#628#647#0#HTML" expanded="true" />
-                <element signature="e#801#818#0#HTML" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -109,6 +101,7 @@
         <option value="Eisner López Acevedo" />
       </list>
     </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubProjectSettings">
@@ -220,7 +213,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
   </component>
   <component name="RecentsManager">
@@ -331,37 +324,57 @@
       <option name="project" value="LOCAL" />
       <updated>1531939956249</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="LogOut">
+      <created>1532102299164</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1532102299164</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.50067115" side_tool="true" visible="true" weight="0.33048433" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32905984" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.33048433" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.33048433" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32905984" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14161074" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14362416" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14161074" />
+      <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="R Packages" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32905984" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.33048433" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="manage.py@djangonautic" order="8" sideWeight="0.49932885" weight="0.32621083" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.50067115" side_tool="true" visible="true" weight="0.33048433" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32905984" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,7 +389,8 @@
     <MESSAGE value="Modificación carpeta template" />
     <MESSAGE value="Imagenes, Detail Articles" />
     <MESSAGE value="Login y SignUp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login y SignUp" />
+    <MESSAGE value="LogOut" />
+    <option name="LAST_COMMIT_MESSAGE" value="LogOut" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -405,10 +419,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-          <folding>
-            <element signature="e#628#647#0#HTML" expanded="true" />
-            <element signature="e#801#818#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -426,14 +436,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163778">
           <caret line="9634" column="21" selection-start-line="9634" selection-start-column="21" selection-end-line="9634" selection-end-column="21" />
-          <folding>
-            <element signature="e#76127#76327#2" expanded="true" />
-            <element signature="e#76561#76710#2" expanded="true" />
-            <element signature="e#77283#77429#2" expanded="true" />
-            <element signature="e#77803#77969#1" expanded="true" />
-            <element signature="e#93080#93323#2" expanded="true" />
-            <element signature="e#94359#94608#2" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -518,9 +520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -605,9 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -654,14 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163778">
           <caret line="9634" column="21" selection-start-line="9634" selection-start-column="21" selection-end-line="9634" selection-end-column="21" />
-          <folding>
-            <element signature="e#76127#76327#2" expanded="true" />
-            <element signature="e#76561#76710#2" expanded="true" />
-            <element signature="e#77283#77429#2" expanded="true" />
-            <element signature="e#77803#77969#1" expanded="true" />
-            <element signature="e#93080#93323#2" expanded="true" />
-            <element signature="e#94359#94608#2" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -714,37 +702,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/articles/templates/accounts/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
+        <state relative-caret-position="119">
           <caret line="7" column="72" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
-          <folding>
-            <element signature="e#692#711#0#HTML" expanded="true" />
-            <element signature="e#877#894#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/accounts/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        <state relative-caret-position="68">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/articles/templates/accounts/sing_up.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="170">
           <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-          <folding>
-            <element signature="e#628#647#0#HTML" expanded="true" />
-            <element signature="e#801#818#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/accounts/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state relative-caret-position="191">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
