@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'articles.apps.ArticlesConfig',
     'accounts',
+    'noconformidad',
 ]
 
 MIDDLEWARE = [
