@@ -22,6 +22,7 @@ from django.urls import path, include
 import articles
 from articles import views
 from .views import about, homepage
+from articles import views as articles_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),

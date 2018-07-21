@@ -24,19 +24,36 @@
                 <a class="nav-link" href="#">Link</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{% url 'articles:create' %}">Create</a>
+                <a class="nav-link nav-fill" href="{% url 'articles:create' %}">New Article</a>
             </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0" action="{% url 'accounts:logout' %}" method="post">
+        {% if user.is_authenticated %}
+
+            <form class="form-inline my-2 my-lg-0" action="{% url 'accounts:logout' %}" method="post">
+                {% csrf_token %}
+                <span class="btn btn-lg btn-outline-light">Hello, {{ request.user.username }} </span>
+                <p></p>
+                <button class="btn-dark btn-lg btn-outline-light" type="submit">Logout</button>
+
+            </form>
+        {% else %}
             {% csrf_token %}
-            <button type="submit">Logout</button>
-        </form>
+            <ul>
+                <li>
+                    <a class="text-success" href="{% url 'accounts:login' %}">Login</a>
+                </li>
+                <li>
+                    <a class="text-danger" href="{% url 'accounts:sing_up' %}">Sign up</a>
+                </li>
+            </ul>
+
+        {% endif %}
     </div>
 </nav>
 
 {% block content %}
 
-    {% endblock %}
+{% endblock %}
 
 </div>
 </body>

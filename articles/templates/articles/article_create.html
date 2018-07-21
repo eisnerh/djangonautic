@@ -2,7 +2,7 @@
 
 
 {% block content %}
-    <div class="container">
+    <div class="container page-item">
         <div class="tab-content">
             <table>
                 <thead>
@@ -13,10 +13,17 @@
             </table>
         </div>
     <div>
-        <form method="post" class="form-control-lg" action="{% url 'articles:create' %}" enctype="multipart/form-data">
+        <form method="post" class="form-control-lg font-weight-bold table-bordered" action="{% url 'articles:create' %}" enctype="multipart/form-data">
             {% csrf_token %}
-            {{ form }}
-            <input type="submit" name="" value="Create">
+            <p class="text-capitalize">
+            {% for foo in form %}
+                {{ foo.label_tag }}
+                {{ foo }}
+                    <br>
+            {% endfor %}
+            </p>
+
+            <input type="submit" name="new_article" value="Create">
         </form>
     </div>
     </div>
